@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app.onedayofwar">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+        android:screenOrientation="landscape"
+        android:keepScreenOn="true">
+
+        <activity android:name=".Activities.MainActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.BluetoothActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".Battle.Activities.BattleOverActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".Campaign.Activities.GameActivity" android:screenOrientation="landscape"/>
+
+    </application>
+
+</manifest>

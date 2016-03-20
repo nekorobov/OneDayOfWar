@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">One Day of War</string>
+    <string name="startGame">Start Game</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="version">0.5.0.2</string>
+    <string name="helloWorld">One Day of War +b</string>
+</resources>

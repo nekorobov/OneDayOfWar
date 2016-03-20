@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/helloWorld"
+        android:id="@+id/appTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:textSize="75px"
+        android:textStyle="bold"
+        android:textColor="#ff00b204"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/appTitle"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:measureWithLargestChild="false"
+            android:baselineAligned="false">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="@string/startGame"
+                android:textSize="70px"
+                android:textStyle="bold"
+                android:id="@+id/startGameBtn"
+                android:onClick="ClickStartGameBtn"
+                android:textColor="#ff00b204"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/infoBtn"
+                android:layout_toStartOf="@+id/infoBtn" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="@string/settings"
+                android:textStyle="bold"
+                android:id="@+id/settingsBtn"
+                android:onClick="ClickBtn2"
+                android:textColor="#ff00b204"
+                android:textSize="70px"
+                android:layout_below="@+id/startGameBtn"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="@string/info"
+                android:textSize="70px"
+                android:textStyle="bold"
+                android:id="@+id/infoBtn"
+                android:onClick="ClickInfoBtn"
+                android:textColor="#ff00b204"
+                android:layout_below="@+id/settingsBtn"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

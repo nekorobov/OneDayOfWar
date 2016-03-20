@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select game mode"
+        android:id="@+id/selectTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:textColor="#ff00b204"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/selectTitle"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectTitle"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Single Game"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:id="@+id/singleGameBtn"
+                android:onClick="ClickSingleBtn"
+                android:layout_below="@+id/selectTitle"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff00b204" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Bluetooth"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:id="@+id/bluetoothBtn"
+                android:layout_weight="0.1"
+                android:onClick="ClickBluetoothBtn"
+                android:layout_below="@+id/campaignBtn"
+                android:layout_alignLeft="@+id/campaignBtn"
+                android:layout_alignStart="@+id/campaignBtn"
+                android:textColor="#ff00b204" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Internet"
+                android:textStyle="bold"
+                android:id="@+id/internetBtn"
+                android:layout_weight="0.1"
+                android:onClick="ClickInternetBtn"
+                android:layout_below="@+id/quickBattle"
+                android:layout_alignLeft="@+id/quickBattle"
+                android:layout_alignStart="@+id/quickBattle"
+                android:textColor="#ff00b204"
+                android:textSize="45sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:id="@+id/backBtn"
+                android:onClick="ClickBackBtn"
+                android:layout_below="@+id/internetBtn"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff00b204"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

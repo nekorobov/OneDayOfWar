@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/diffBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:max="100"
+        android:longClickable="false"
+        android:progress="0"
+        android:indeterminate="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/diffText"
+        android:layout_above="@+id/diffBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="0%"
+        android:textColor="#ff00b204"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/diffBtn"
+        android:layout_below="@+id/diffBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff00b204"
+        android:onClick="diffBtnClick"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+</RelativeLayout>

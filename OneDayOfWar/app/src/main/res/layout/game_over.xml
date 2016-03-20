@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RESULT"
+        android:id="@+id/resultText"
+        android:layout_above="@+id/tableRow"
+        android:layout_marginBottom="30dp"
+        android:textSize="60sp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff00b204"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textAppearance = "?android:attr/textAppearanceLarge"
+            android:text = "You earned: "
+            android:id = "@+id/textView"
+            android:textSize = "45sp"
+            android:textColor="#ff00b204"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textAppearance = "?android:attr/textAppearanceLarge"
+            android:text = "reward"
+            android:id = "@+id/rewardText"
+            android:textSize = "45sp"
+            android:textColor="#ff00b204"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" credits"
+            android:id="@+id/textView3"
+            android:textSize="45sp"
+            android:textColor="#ff00b204"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/gameOverBtn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tableRow"
+        android:layout_centerHorizontal="true"
+        android:textSize="45sp"
+        android:onClick="gameOverBtnClick"
+        android:textColor="#ff00b204"
+        android:textStyle="bold" />
+
+</RelativeLayout>

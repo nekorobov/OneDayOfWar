@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.onedayofwar.Activities.MainActivity"/>
+      <point      
+        x = "3200"      
+        y = "0"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.onedayofwar.Battle.Activities.BattleOverActivity"/>
+      <point      
+        x = "3200"      
+        y = "1280"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.onedayofwar.Battle.Activities.BattleActivity"/>
+      <point      
+        x = "800"      
+        y = "160"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

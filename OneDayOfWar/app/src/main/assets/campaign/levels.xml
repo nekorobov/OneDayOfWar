@@ -1,0 +1,48 @@
+<planet size = "15">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "10" rocket = "0" tank = "0" turret = "0" sonder = "0"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "1" nano_steel_mines = "1" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "5">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "0" rocket = "0" tank = "0" turret = "0" sonder = "1"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "0" nano_steel_mines = "0" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "15">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "10" rocket = "0" tank = "0" turret = "0" sonder = "0"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "1" nano_steel_mines = "1" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "5">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "0" rocket = "0" tank = "0" turret = "0" sonder = "1"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "0" nano_steel_mines = "0" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "15">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "10" rocket = "0" tank = "0" turret = "0" sonder = "0"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "1" nano_steel_mines = "1" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "5">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "0" rocket = "0" tank = "0" turret = "0" sonder = "1"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "0" nano_steel_mines = "0" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "15">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "10" rocket = "0" tank = "0" turret = "0" sonder = "0"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "1" nano_steel_mines = "1" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
+<planet size = "5">
+	<space_guard a="0" b="0" c = "0" d="0" e="0" f="0"/>
+	<ground_guard robot = "0" ifv = "0" rocket = "0" tank = "0" turret = "0" sonder = "1"/>
+	<resources oil = "1000" nano_steel = "5000" synco_crystal = "0"/>
+	<buildings oil_drill = "0" nano_steel_mines = "0" synco_crystal_mines = "0" barracks = "0" labaratory = "0" shield = "0" />
+</planet>
